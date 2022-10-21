@@ -2,6 +2,5 @@
 # Create function argument a.
 # Returns the square root of a number.
 def main(a):
-    x = a / 3
-    return x
+    return pow(a,1/2)
 print(main(9))
